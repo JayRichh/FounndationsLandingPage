@@ -1,3 +1,3 @@
-# FounndationsLandingPage
+# foundations-landing-page
 
 Foundations
