@@ -1,0 +1,109 @@
+html {
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Header */
+
+header {
+
+}
+
+h1 {
+
+}
+
+nav {
+
+}
+
+nav ul {
+
+}   
+
+
+/* Main */
+
+/* Sign Up */
+
+.signUp {
+
+}
+
+.intro {
+
+}
+
+.signUpBotton {
+
+}
+
+.signUpPhoto {
+
+}
+
+/* Random Info */
+
+.randomInfo {
+
+}
+
+.randomInfo p {
+
+}
+
+.infoPanels {
+
+}
+
+.panelOne {
+
+}
+
+.panelTwo {
+
+}
+
+.panelThree {
+
+}
+
+.panelFour {
+
+}
+
+/* Quote */
+
+.quote {
+
+}
+
+.quote p {
+
+}
+
+.quote h4 {
+
+}
+
+/* Action */
+
+.action {
+
+}
+
+.action h5 {
+
+}
+
+/* Footer */
+
+.footer {
+    
+}
