@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Landing Page</title>
 </head>
 <body>
@@ -11,7 +15,7 @@
         <h1>Header Logo</h1>
         <nav>
             <ul>
-                <li><a href="#signUp">header link one</a></li>
+                <li><a href="">header link one</a></li>
                 <li><a href="">header link two</a></li>
                 <li><a href="">header link three</a></li>
             </ul>
@@ -22,7 +26,7 @@
             <div class="intro">
                 <h2>This website is awesome</h2>
                 <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-                <button class="signUpButton" type="button">Sign Up</button>
+                <button type="button">Sign Up</button>
             </div>
             <div class="signUpPhoto">
                 <p>this is a placeholder for an image</p>
@@ -30,17 +34,21 @@
         </div>
         <div class="randomInfo">
             <h3>Some random information.</h3>
-            <div class="infoPanels">
-                <div class="panelOne">
+            <div class="infoContainer">
+                <div class="panel">
+                    <div class="display"></div>
                     <p>this is some dubtext under an illustration or image</p>
                 </div>
-                <div class="panelTwo">
+                <div class="panel">
+                    <div class="display"></div>
                     <p>this is some dubtext under an illustration or image</p>
                 </div>
-                <div class="panelThree">
+                <div class="panel">
+                    <div class="display"></div>
                     <p>this is some dubtext under an illustration or image</p>
                 </div>
-                <div class="PanelFour">
+                <div class="panel">
+                    <div class="display"></div>
                     <p>this is some dubtext under an illustration or image</p>
                 </div>
             </div>
@@ -50,9 +58,13 @@
             <h4>-Thor, God of Thunder</h4>
         </div>
         <div class="action">
-            <h5>Call to action! It's time!</h5>
-            <p>Sign up for our product by clicking that button right over there!</p>
-            <button class="signUpButton" type="button">Sign Up</button>
+            <div class="actionBanner">
+                <div class="actionInfo">
+                    <h5>Call to action! It's time!</h5>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <button type="button">Sign Up</button>
+            </div>
         </div>
     </main>
     <footer class="footer">
